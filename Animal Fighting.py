@@ -187,7 +187,7 @@ if __name__ == "__main__":
     # Animal
     Gecko = Animal("Gecko", "Reptile", ["Lick", "Bite", "Scratch", "Poison"], {"Attack": 12, "Defense": 8} )
     Bird = Animal("Bird", "Bird", ["Scratch", "Peck", "Fly", "Feather Dance"], {"Attack": 11, "Defense": 11} )
-
+    Racoon = Animal("Racoon", "Mammel", ["Scratch", "Tail Slam", "Chew", "Trash Dance"], {"Attack": 11, "Defense": 11})
     Gecko.fight(Bird)
 
 
