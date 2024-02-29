@@ -178,7 +178,7 @@ class Animal:
             time.sleep(1)
 
         #============================End of battle prompt=========================#
-        money = np.random.choice(5000)
+        money = np.random.choice(250)
         delay_print(Fore.GREEN + f"\nOpponent paid you ${money}\n")
         #=========================================================================#
 
