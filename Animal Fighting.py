@@ -61,7 +61,7 @@ class Animal:
     #=================Establishing types of animals ========#
         species = ["Bird", "Reptile", "Mammal"]
     #=======================================================#
-
+ 
     #=================Strengths + Weaknesses======================================#
         for i,k in enumerate(species):
             if self.types == k: 
